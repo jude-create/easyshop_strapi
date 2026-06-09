@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "saved_addresses",
+  "info": {
+    "singularName": "saved-address",
+    "pluralName": "saved-addresses",
+    "displayName": "saved address"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firebaseUid": {
+      "type": "string",
+      "required": true
+    },
+    "label": {
+      "type": "enumeration",
+      "enum": [
+        "Home",
+        "Office",
+        "Other"
+      ],
+      "required": true
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "street": {
+      "type": "text",
+      "required": true
+    },
+    "city": {
+      "type": "string",
+      "required": true
+    },
+    "state": {
+      "type": "string",
+      "required": true
+    },
+    "phone": {
+      "type": "string",
+      "required": true
+    },
+    "isDefault": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
