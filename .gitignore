@@ -84,7 +84,8 @@ public/uploads/*
 !public/uploads/.gitkeep
 .tsbuildinfo
 .eslintcache
-jujora-ca905-firebase-adminsdk-ios08-7c5cfa43e5.json
+.env
+jujora-ca905-236b8478ad05.json
 
 ############################
 # Node.js
@@ -130,3 +131,5 @@ dist
 build
 .strapi-updater.json
 .strapi-cloud.json
+jujora-ca905-*.json
+jujora-ca905-236b8478ad05.json
