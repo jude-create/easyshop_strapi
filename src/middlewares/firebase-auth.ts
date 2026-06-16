@@ -63,6 +63,11 @@ export default (_config: unknown, { strapi }: { strapi: Core.Strapi }) => {
       return;
     }
 
+    if (ctx.path.startsWith('/api/payments/')) {
+      await next();
+      return;
+    }
+
     const resourceInfo = getProtectedResource(ctx.path);
     if (!resourceInfo) {
       await next();

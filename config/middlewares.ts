@@ -8,6 +8,7 @@ const config: Core.Config.Middlewares = [
   'strapi::poweredBy',
   'strapi::query',
   'strapi::body',
+  'global::paystack-payments',
   'global::firebase-auth',
   'strapi::session',
   'strapi::favicon',
